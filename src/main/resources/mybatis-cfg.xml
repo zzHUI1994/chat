@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration   
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">   
+    
+<configuration>   
+    <settings>   
+        <setting name="cacheEnabled" value="false" />  
+        <!-- 使用jdbc的getGenertedKeys 获取数据库自增主键 --> 
+        <setting name="useGeneratedKeys" value="true" />
+        <!-- 使用列别名替换列名 --> 
+        <setting name="useColumnLabel" value="true"/>
+        <!-- 开启驼峰命名转换 -->    
+        <setting name="mapUnderscoreToCamelCase" value="true"/>   
+        <setting name="defaultExecutorType" value="REUSE" />   
+    </settings>  
+     <!-- 
+    <typeAliases>   
+       <typeAlias alias="User" type="test.mybatis.User"/>   
+    </typeAliases>   -->   
+    <mappers>   
+        <!-- <mapper resource="com/zzh/resume/db/sqlxml/person.xml" />    -->
+        <!-- <mapper resource="com/zzh/resume/db/sqlxml/college.xml" />    -->
+        <!-- <mapper resource="com/zzh/resume/db/sqlxml/college_major.xml" />    -->
+    </mappers>   
+</configuration>  

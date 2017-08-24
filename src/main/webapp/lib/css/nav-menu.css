@@ -1,0 +1,179 @@
+.sendi-nav {
+    height: 50px;
+    /*border-bottom:  2px solid #ddd;*/
+    background: #000;
+}
+
+.system-logo {
+    display: block;
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-menu .left,
+.nav-menu .right {
+    height: 50px;
+    width: 20px;
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+}
+
+.nav-menu .left {
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+.nav-menu .left:hover,
+.nav-menu .right:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-menu .right {
+    float: right;
+    border-left: 1px solid #fff;
+}
+
+.menu-container {
+    position: relative;
+    width: 720px;
+    overflow: hidden;
+    height: 50px;
+}
+
+.mainmenubar {
+    position: absolute;
+    left: 0px;
+}
+
+.mainmenubar > li {
+    float: left;
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #40b8ee;
+    border-left: 1px solid #fff;
+}
+
+.mainmenubar > li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #FF0000;
+}
+
+.mainmenubar li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mainmenubar li a:hover {
+    text-decoration: none;
+}
+
+.submenu {
+    position: absolute;
+    width: 180px;
+    display: none;
+    top: 52px;
+    background-color: #40b8ee;
+}
+
+.submenu li {
+    width: 100%;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+    padding: 2px 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.submenu li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.submenu li a:hover {
+    text-decoration: none;
+}
+
+.submenu li:hover {
+    background: #00A0E8;
+}
+
+.submenu-container {
+    position: absolute;
+    left: 182px;
+    top: 0px;
+    width: 180px;
+    display: none;
+    background-color: #40b8ee;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.moremenu {
+    /*z-index: 2000;*/
+}
+
+.moremenu:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.animation {
+    -webkit-animation: fadeInLeft .2s .2s ease both;
+    -moz-animation: fadeInLeft .2s .2s ease both;
+}
+
+.slide {
+    transition: left .5s ease-in .1s;
+}
+
+.slidemenu {
+    width: 847px;
+    /* overflow-y: hidden; */
+    overflow: hidden;
+    padding: 0px;
+    margin-right: auto;
+}
+
+.menu-icon{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+}
+.menu-label{
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    text-align: center;
+}
+.submenu-icon{
+    padding-left: 5px;
+    padding-right: 5px; 
+}
